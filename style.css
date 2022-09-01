@@ -150,6 +150,7 @@ a {
 
 /* styles for the testimonial section */
 .testimonial  {
+    position: relative;
     width: min(1100px, 90%);
     margin: 0 auto;
     display: grid;
@@ -171,6 +172,29 @@ a {
     display: flex;
     gap: 0.7rem;
 }
+.quotes {
+    position: absolute;
+    top: -2rem;
+    left: -0.3rem;
+    z-index: -1;
+}
+
+/* styles on suscribe section */
+.suscribe-cta {
+    width: min(600px, 90%);
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 3px;
+    background-color: var(--clr-darkblue-400);
+    box-shadow: 10px 10px 10px var(--clr-darkblue-600);
+
+}
+input {
+    padding: 0.5rem 4rem;
+    border-radius: 18px;
+    margin-right: 0.5rem;
+}
 
 
 @media (max-width: 600px) {
@@ -191,6 +215,9 @@ a {
     .productive {
        grid-template-columns: 1fr;
     }
+    .testimonial {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* utility class */
@@ -200,6 +227,13 @@ a {
     font-weight: 500;
     line-height: 1.3;
 }
+.secondary-heading {
+    font-family: var(--ff-heading);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
 .tertiary-heading {
     font-family: var(--ff-heading);
     font-size: 1.1rem;
