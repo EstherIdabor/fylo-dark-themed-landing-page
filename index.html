@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ac8c116395.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -29,7 +30,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="bg-nav-hero">
     <div class="header-container">
       <div class="logo-img">
         <img src="images/logo.svg" alt="">
@@ -46,7 +47,7 @@
 
   <main>
     <!-- Hero section goes here -->
-    <section style="margin-bottom: 3rem;">
+    <section class="hero-main-section" style="margin-bottom: 3rem;">
       <div class="hero-section flow">
         <div class="hero-img">
           <img src="images/illustration-intro.png" alt="">
@@ -113,7 +114,7 @@
     </section>
 
     <!-- third content section -->
-    <section style="margin-bottom: 3rem;">
+    <section style="margin-bottom: 4rem;">
       <div class="productive">
         <div>
           <img src="images/illustration-stay-productive.png" alt="">
@@ -137,7 +138,7 @@
     </section>
 
     <!-- Testimonial section goes here -->
-    <section style="margin-bottom: 4rem;">
+    <section style="margin-bottom: 17rem;">
       <div class="testimonial">
         <div class="quotes">
           <img src="images/bg-quotes.png" alt="">
@@ -179,7 +180,7 @@
               become a well-oiled collaboration machine.</p>
           </div>
           <div class="testimonial-data">
-            <div style="width: 10%;"> 
+            <div style="width: 10%;">
               <img class="profile-img" src="images/profile-3.jpg" alt="">
             </div>
             <div>
@@ -189,62 +190,69 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Suscribe section -->
-    <section>
-      <div>
-        <div class="suscribe-cta flow">
+      <div class="suscribe-cta flow">
         <h2 class="secondary-heading">Get early access today</h2>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
           questions, our support team would be happy to help you.</p>
-          <form action="">
-            <input type="email">
-            <button class="button">  Get Started For Free</button>
-          </form>
+        <form action="">
+          <input type="email">
+          <button class="button suscribe-cta-button"> Get Started For Free</button>
+        </form>
       </div>
-      <img src="images/logo.svg" alt="">
-      <div>
-        <div>
-          <img src="images/icon-location.svg" alt="">
+    </section>
+  </main>
+
+  <!-- Suscribe section -->
+  <footer>
+    <div class="footer-container ">
+      
+      <img src="images/logo.svg" alt="" style="margin-bottom: 3rem; margin-top: 3rem;">
+      <div class="footer-items">
+        <div class="address-icon">
+          <img class="icons" src="images/icon-location.svg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua</p>
         </div>
         <div>
-          <div>
-            <img src="images/icon-phone.svg" alt="">
+          <div class="address-icon">
+            <img class="icons" src="images/icon-phone.svg" alt="">
             <p>+1-543-123-4567</p>
           </div>
-          <div>
-            <img src="images/icon-email.svg" alt="">
+          <div class="address-icon" style="margin-top: 1rem;">
+            <img class="icons" src="images/icon-email.svg" alt="">
             <p>example@fylo.com</p>
           </div>
         </div>
-        <div>
-          <ul>
+        <div class="link-item">
+          <ul class="flow">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Jobs</a></li>
             <li><a href="#">Press</a></li>
             <li><a href="#"> Blog</a></li>
           </ul>
-          <ul>
+          <ul class="flow">
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#"> Privacy</a></li>
           </ul>
         </div>
+         <div class="social-icons">
+        <i class="fab fa-facebook fa-xl social-icon"></i>
+        <i class="fab fa-twitter fa-xl social-icon"></i>
+        <i class="fab fa-instagram fa-xl social-icon"></i>
       </div>
       </div>
-    </section>
-  
-  </main>
+    </div>
+  </footer>
 
-  <footer>
+
+
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
