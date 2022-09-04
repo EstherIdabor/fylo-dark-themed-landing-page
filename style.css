@@ -275,6 +275,9 @@ footer {
         position: relative;
         grid-template-columns: 1fr;
     }
+    .quote-img {
+        width: 90%;
+    }
     .footer-items {
         grid-template-columns: 1fr;
     }
