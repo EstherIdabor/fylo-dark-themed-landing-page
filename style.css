@@ -221,6 +221,10 @@ footer {
     width: min(1200px, 90%);
     margin: 0 auto;
 }
+.footer-logo-img {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
 .footer-items {
    display: grid;
    grid-template-columns: 2fr 2fr 2fr 2fr;
@@ -295,6 +299,10 @@ footer {
     .suscribe-cta-button {
         width: 250px;
         padding: 1rem 2.5rem;
+    }
+    .footer-logo-img {
+        width: 30%;
+        margin-top: 7rem;
     }
 }
 
